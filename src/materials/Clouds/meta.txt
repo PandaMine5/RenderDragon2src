@@ -1,0 +1,19 @@
+Affects clouds in sky
+
+/*
+* Available Macros:
+*
+* Passes:
+* - TRANSPARENT_PASS
+*
+* Instancing:
+* - INSTANCING__OFF (not used)
+* - INSTANCING__ON (not used)
+*
+* Available Resources:
+*
+* Uniforms:
+* - uniform vec4 CloudColor;
+* - uniform vec4 DistanceControl;
+* - uniform vec4 SubPixelOffset;
+*/

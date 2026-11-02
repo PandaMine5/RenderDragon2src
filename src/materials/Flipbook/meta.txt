@@ -1,0 +1,16 @@
+Controls block flipbook textures
+
+/*
+* Available Macros:
+*
+* Passes:
+* - BLIT_PASS (not used)
+*
+* Available Resources:
+*
+* Buffers:
+* - uniform lowp sampler2D s_BlitTexture;
+*
+* Uniforms:
+* - uniform vec4 VBlendControl;
+*/

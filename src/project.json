@@ -1,0 +1,38 @@
+{
+    "base_profile": {
+        "merge_source": ["vanilla"],
+        "include_patterns": ["materials/*"],
+        "exclude_patterns": [
+            ".*",
+            "_*",
+            // Exclude shaders
+            "materials/EndSky"
+        ],
+        "include_search_paths": ["include", "include/bgfx"]
+    },
+    "profiles": {
+        "windows": {
+            "platforms": ["Direct3D_SM50", "Direct3D_SM60", "Direct3D_SM65"]
+        },
+        "windows_tiny": {
+            "platforms": ["Direct3D_SM50"]
+        },
+        //
+        "android": {
+            "platforms": ["ESSL_310", "ESSL_300"]
+        },
+        "android_tiny": {
+            "platforms": ["ESSL_300"]
+        },
+        "ios": {
+            "platforms": ["Metal"]
+        },
+        //
+        "all_platform": {
+            "platforms": ["ESSL_310", "Direct3D_SM65", "Metal"]
+        },
+        "all_platform_compatibility": {
+            "platforms": ["ESSL_300", "Direct3D_SM50", "Metal"]
+        }
+    }
+}

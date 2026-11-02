@@ -1,0 +1,18 @@
+Affects stars in sky
+
+
+/*
+* Available Macros:
+*
+* Passes:
+* - TRANSPARENT_PASS (not used)
+*
+* Instancing:
+* - INSTANCING__OFF (not used)
+* - INSTANCING__ON (not used)
+*
+* Available Resources:
+*
+* Uniforms:
+* - uniform vec4 StarsColor;
+*/

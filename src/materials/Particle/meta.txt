@@ -1,0 +1,22 @@
+Controls particle effects
+
+/*
+* Available Macros:
+*
+* Passes:
+* - ALPHA_TEST_PASS
+* - TRANSPARENT_PASS (not used)
+*
+* Instancing:
+* - INSTANCING__OFF (not used)
+* - INSTANCING__ON (not used)
+*
+* Available Resources:
+*
+* Buffers:
+* - uniform lowp sampler2D s_ParticleTexture;
+*
+* Uniforms:
+* - uniform vec4 FogAndDistanceControl;
+* - uniform vec4 FogColor;
+*/

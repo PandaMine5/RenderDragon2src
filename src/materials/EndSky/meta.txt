@@ -1,0 +1,23 @@
+Controls sky in End Dimension
+
+/*
+* Available Macros:
+*
+* Passes:
+* - OPAQUE_PASS (not used)
+*
+* Instancing:
+* - INSTANCING__OFF (not used)
+* - INSTANCING__ON (not used)
+*
+* Available Resources:
+*
+* Buffers:
+* - uniform lowp sampler2D s_SkyTexture;
+*
+* Uniforms:
+* - uniform vec4 LightDiffuseColorAndIlluminance; (not used)
+* - uniform vec4 LightWorldSpaceDirection; (not used)
+* - uniform vec4 SkyColor;
+* - uniform mat4 UV0Transform;
+*/

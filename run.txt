@@ -1,0 +1,8 @@
+
+
+
+# Debug
+lazurite build "src" -p android_tiny --shaderc-args="-O0 --debug"
+
+# Release
+lazurite build "src" -p all_platform_compatibility --shaderc-args="-O=3 --preprocess --verbose" 

@@ -1,0 +1,45 @@
+Affects world terrain
+
+/*
+* Available Macros:
+*
+* Passes:
+* - ALPHA_TEST_PASS
+* - DEPTH_ONLY_PASS (not used)
+* - DEPTH_ONLY_OPAQUE_PASS (not used)
+* - OPAQUE_PASS
+* - TRANSPARENT_PASS
+*
+* Dithering:
+* - DITHERING__OFF
+* - DITHERING__ON
+*
+* Instancing:
+* - INSTANCING__OFF (not used)
+* - INSTANCING__ON (not used)
+*
+* RenderAsBillboards:
+* - RENDER_AS_BILLBOARDS__OFF (not used)
+* - RENDER_AS_BILLBOARDS__ON (not used)
+*
+* Seasons:
+* - SEASONS__OFF
+* - SEASONS__ON
+*
+* Available Resources:
+*
+* Buffers:
+* - uniform lowp sampler2D s_LightMapTexture;
+* - uniform lowp sampler2D s_MatTexture;
+* - uniform lowp sampler2D s_SeasonsTexture;
+*
+* Uniforms:
+* - uniform vec4 DitherParams;
+* - uniform vec4 DitherParams2[3];
+* - uniform vec4 FogAndDistanceControl;
+* - uniform vec4 FogColor;
+* - uniform vec4 MeshContext;
+* - uniform vec4 RenderChunkFogAlpha;
+* - uniform vec4 SubPixelOffset;
+* - uniform vec4 ViewPositionAndTime;
+*/
